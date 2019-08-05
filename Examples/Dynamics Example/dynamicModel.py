@@ -5,7 +5,7 @@ import math
 class R5M(object):
 
     # density of water (kg/L)
-    water_density = 1.0;
+    water_density = 1.0;  #1.023 for seawater
 
     dof = 4
     # DH parameters (mm,rads)
