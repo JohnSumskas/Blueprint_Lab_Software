@@ -12,7 +12,7 @@ Contents
 
 Installation
 --------------
-* **Depandancies**
+* **Dependancies**
 
 Support
 --------------
