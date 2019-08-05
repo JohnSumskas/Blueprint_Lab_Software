@@ -7,8 +7,8 @@ Links
 
 Contents
 --------------
-* **Implementation** - A basic set of examples for getting started with R5M
-* **Examples** - General samples for more advanced integration for ROV platforms
+* **Implementation** - A basic set of examples for getting started with R5M.
+* **Examples** - General samples for more advanced integration for ROV platforms.
 
 Installation
 --------------
@@ -16,4 +16,4 @@ Installation
 
 Support
 --------------
-* **Contact** - info@blueprintlab.com for more information or assistance
+* **Contact** - info@blueprintlab.com for more information or assistance.
