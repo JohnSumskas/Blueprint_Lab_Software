@@ -16,4 +16,4 @@ Installation
 
 Support
 --------------
-* **Contact** - info@blueprintlab.com
+* **Contact** - info@blueprintlab.com for more information or assistance
