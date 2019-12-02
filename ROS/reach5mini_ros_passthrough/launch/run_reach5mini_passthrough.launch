@@ -1,0 +1,6 @@
+<launch>
+  <!-- Loading multiple reach5mini_ros_passthrough scripts. Usage on next line -->
+  <!-- node name="reach5mini_passthrough_#" pkg="reach5mini_ros_passthrough" type="r5m_passthrough.py" args="R5M_instance_number serial_port" /-->
+  <node name="reach5mini_passthrough_0" pkg="reach5mini_ros_passthrough" type="r5m_passthrough.py" args="0 /dev/ttyUSB0"/>
+  <!-- node name="reach5mini_passthrough_0" pkg="reach5mini_ros_passthrough" type="r5m_passthrough.py" args="1 /dev/ttyUSB1"/-->
+</launch>
