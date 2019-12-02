@@ -8,6 +8,7 @@ Links
 Contents
 --------------
 * **Implementation** - A basic set of examples for getting started with R5M.
+* **ROS** - ROS nodes to interface with the R5M.
 * **Examples** - General samples for more advanced integration for ROV platforms.
 
 Installation
