@@ -7,13 +7,14 @@ Links
 
 Contents
 --------------
-* **Implementation** - A basic set of examples for getting started with R5M.
-* **ROS** - ROS nodes to interface with the R5M.
+* **BPL_serial_protocol** - Software Development Kit (SDK) as a guide to using the Blueprint Lab's products.
+* **ROS** - ROS nodes to interface with the R5M. See README in the ROS folder for installation instructions.
 * **Examples** - General samples for more advanced integration for ROV platforms.
 
 Installation
 --------------
 * **Dependancies**
+All examples are primarily designed around Python 3. Some parts may need modification if you plan to use Python 2.
 
 Support
 --------------
