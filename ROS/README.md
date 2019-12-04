@@ -7,8 +7,8 @@ BlueprintLab ROS packages for interfacing with the Reach5Mini products via ROS.
 * **R5M_Examples (repository main directory):**  
     * **ROS/blueprintlab_reachsystem_ros_messages (required):** ROS package for storing ROS message types.
     * **ROS/reach5mini_ros_passthrough (required):** Bottom-end ROS to Serial passthrough script for R5M data transmission. Main script: `scripts/r5m_passthrough.py`
-    * **Examples/ROS/keyboard_r5m_test:** Package to control joints on a Reach 5 Mini (R5M) using a keyboard as the input. Main script: `scripts/keyboard_r5m.py`
-    * **Examples/ROS/r5m_ros_controller:** Top-end control interface for sending commands to the R5M ROS topics and receiving data from the R5M ROS topics. Main script: `scripts/r5m_control.py`
+    * **ROS/Examples/keyboard_r5m_test:** Package to control joints on a Reach 5 Mini (R5M) using a keyboard as the input. Main script: `scripts/keyboard_r5m.py`
+    * **ROS/Examples/r5m_ros_controller:** Top-end control interface for sending commands to the R5M ROS topics and receiving data from the R5M ROS topics. Main script: `scripts/r5m_control.py`
 
 
 

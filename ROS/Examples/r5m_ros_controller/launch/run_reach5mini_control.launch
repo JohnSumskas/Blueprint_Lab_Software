@@ -1,0 +1,6 @@
+<launch>
+  <!-- Loading multiple r5m_ros_controller scripts. Usage on next line -->
+  <!-- node name="r5m_ros_controller_#" pkg="r5m_ros_controller" type="r5m_control.py" args="R5M_instance_number" /-->
+  <node name="r5m_ros_controller_0" pkg="r5m_ros_controller" type="r5m_control.py" args="0"/>
+  <!-- node name="r5m_ros_controller_1" pkg="r5m_ros_controller" type="r5m_control.py" args="1"/-->
+</launch>
