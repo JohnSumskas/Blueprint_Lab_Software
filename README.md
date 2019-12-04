@@ -10,6 +10,7 @@ Contents
 * **BPL_serial_protocol** - Software Development Kit (SDK) as a guide to using the Blueprint Lab's products.
 * **ROS** - ROS nodes to interface with the R5M. See README in the ROS folder for installation instructions.
 * **Examples** - General samples for more advanced integration for ROV platforms.
+* **Documentation** - Documentation to assist in development.
 
 Installation
 --------------
