@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: reach_system_one_support
+    relative_path: urdf/reach5mini.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/reach5mini.srdf
+  CONFIG:
+    author_name: BlueprintLab
+    author_email: w.marais@blueprintlab.com
+    generated_timestamp: 1572933900

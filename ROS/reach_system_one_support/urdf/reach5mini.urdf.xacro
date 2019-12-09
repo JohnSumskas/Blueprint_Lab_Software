@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"
+	
+
+    <!-- Inertia parameters -->
+    <xacro:property name="base_mass" value="0.341" /> 
+    <xacro:property name="shoulder_mass" value="0.194" />
+    <xacro:property name="upper_arm_mass" value="0.429" />
+    <xacro:property name="forearm_mass" value="0.115" />
+    <xacro:property name="wrist_mass" value="0.333" />
+
+	<xacro:property name="base_cog" value="-0.075 -0.006 -0.003" />
+    <xacro:property name="shoulder_cog" value="0.005 -0.001 0.016" />
+    <xacro:property name="upper_arm_cog" value="0.073 0.0 0.0" />
+    <xacro:property name="forearm_cog" value="0.017 -0.026 -0.002" />
+    <xacro:property name="wrist_cog" value="0.0 0.003 -0.098" />
+
+    <xacro:property name="base_I" value="0.341" /> 
+    <xacro:property name="shoulder_I" value="0.194" />
+    <xacro:property name="upper_arm_I" value="0.429" />
+    <xacro:property name="forearm_I" value="0.115" />
+    <xacro:property name="wrist_I" value="0.333" />
+
+  <link name="{prefix}mount">
+    <visual>
+      <geometry>
+        <mesh filename ="package://reach_system_one_support/meshes/reach5mini/visual/M3-centered.STL"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="-0.075 0 0"/>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.150" radius="0.020"/>
+      </geometry>
+      <origin rpy="0 1.57075 0" xyz="-0.075 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.341"/>
+      <origin xyz="-0.075 -0.006 -0.003"/>
+      <inertia ixx="0.000099" ixy="0.000139" ixz="0.000115" iyy="0.002920" iyz="0.000003" izz="0.002934"/>
+    </inertial>
+  </link>
+
+
+
+
